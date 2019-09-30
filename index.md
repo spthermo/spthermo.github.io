@@ -4,7 +4,7 @@ I am a Ph.D. Candidate at the **Department of Electrical & Computer Engineering,
 
 ## Areas of Interest
 
-Observation-based sensorimotor learning | Affordance modeling and understanding | Generative adversarial networks | Unsupervised and self-supervised learning
+Observation-based sensorimotor learning \| Affordance modeling and understanding \| Generative adversarial networks \| Unsupervised and self-supervised learning
 
 ## Milestones Timeline
 
