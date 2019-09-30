@@ -1,12 +1,13 @@
 ## About me
 
-I am a Ph.D. Candidate at the **Department of Electrical & Computer Engineering, University of Thessaly**. I received my diploma and MSc in Computer Engineering from the same department in 2013 and 2015 respectively. My Ph.D. is under the supervision of Prof. Gerasimos Potamianos, Dr. Petros Daras and Prof. Argyriou Antonios. 
+I am a Ph.D. Candidate at the **Department of Electrical & Computer Engineering, University of Thessaly**. I received my diploma and MSc in Computer Engineering from the same department in 2013 and 2015, respectively. My Ph.D. is under the supervision of Prof. Gerasimos Potamianos, Dr. Petros Daras.
 
 ## Areas of Interest
 
-* Computer Vision
-* Deep learning
-* Mixed Reality
+* Observation-based sensorimotor learning
+* Affordance modeling and understanding
+* Generative adversarial networks
+* Unsupervised and self-supervised learning
 
 ## Latest News
 
