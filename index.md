@@ -1,41 +1,38 @@
 ## About me
 
-I am a Ph.D. Candidate at the **Department of Electrical & Computer Engineering, University of Thessaly**. I received my diploma and MSc in Computer Engineering from the same department in 2013 and 2015, respectively. My Ph.D. is under the supervision of Prof. Gerasimos Potamianos, Dr. Petros Daras.
+I am a Ph.D. Candidate at the **Department of Electrical & Computer Engineering, University of Thessaly**. I received my diploma and MSc in Computer Engineering from the same department in 2013 and 2015, respectively. My Ph.D. is under the supervision of Prof. Gerasimos Potamianos, Dr. Petros Daras. Check my [resume](http://inf-server.inf.uth.gr/~spthermo/Spiros_Thermos_resume.pdf) for further details.
 
 ## Areas of Interest
 
-* Observation-based sensorimotor learning
-* Affordance modeling and understanding
-* Generative adversarial networks
-* Unsupervised and self-supervised learning
+Observation-based sensorimotor learning, Affordance modeling and understanding, Generative adversarial networks, Unsupervised and self-supervised learning
 
-## Latest News
+## Milestones Timeline
 
-**July 2019** Our paper on Self-supervised Deep Depth Denoising has been accepted **[@ICCV 2019](http://iccv2019.thecvf.com/)** (Seoul)
+* **July 2019** Our paper on Self-supervised Deep Depth Denoising has been accepted **[@ICCV 2019](http://iccv2019.thecvf.com/)** (Seoul)
 
-**February 2019** I'm serving as a reviewer for ICIP 2019
+* **February 2019** I'm serving as a reviewer for ICIP 2019
 
-**January 2019** VRTogether team wins the Best Demo Award @MMM2019. Proud to present the corresponding poster! award poster
+* **January 2019** VRTogether team wins the Best Demo Award @MMM2019. Proud to present the corresponding poster! award poster
 
-**October 2018** Oral presentation **@ICIP 2018** (Athens)
+* **October 2018** Oral presentation **@ICIP 2018** (Athens)
 
-**July 2018** I'm serving as a reviewer for ACCV 2018
+* **July 2018** I'm serving as a reviewer for ACCV 2018
 
-**May 2018** I have been accepted to present my PhD at the 3MT competition @ICIP 2018.
+* **May 2018** I have been accepted to present my PhD at the 3MT competition @ICIP 2018.
 
-**May 2018** My paper on attention-enhanced sensorimotor learning has been accepted @ ICIP 2018.
+* **May 2018** My paper on attention-enhanced sensorimotor learning has been accepted @ ICIP 2018.
 
-**March 2018** Our 3D-FusionNet ranked 2nd in the Protein Shape Retrieval challenge of SHREC 2018.
+* **March 2018** Our 3D-FusionNet ranked 2nd in the Protein Shape Retrieval challenge of SHREC 2018.
 
-**January 2018** Started working on VRTogether - Technology for studying user co-presence in virtual reality environments.
+* **January 2018** Started working on VRTogether - Technology for studying user co-presence in virtual reality environments.
 
-**November 2017** I'm serving as a reviewer for CVPR 2018
+* **November 2017** I'm serving as a reviewer for CVPR 2018
 
-**August 2017** I'm serving as a tactical reviewer for IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)
+* **August 2017** I'm serving as a tactical reviewer for IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)
 
-**July 2017** Spotlight **(< 19% acceptance)** presentation **@CVPR 2017** (Hawaii)
+* **July 2017** Spotlight **(< 19% acceptance)** presentation **@CVPR 2017** (Hawaii)
 
-**June 2017** Sensorimotor Object Recognition 3D Dataset (SOR3D) is online, visit our site [here](http://sor3d.vcl.iti.gr/).
+* **June 2017** Sensorimotor Object Recognition 3D Dataset (SOR3D) is online, visit our site [here](http://sor3d.vcl.iti.gr/).
 
 ## Publications
 
