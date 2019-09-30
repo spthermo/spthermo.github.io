@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+## About me
 
-You can use the [editor on GitHub](https://github.com/spthermo/spthermo.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am a Ph.D. Candidate at the Department of Electrical & Computer Engineering, University of Thessaly. I received my diploma and MSc in Computer Engineering from the same department in 2013 and 2015 respectively. Moreover, I am a research assistant at CERTH and member of the Visual Computing Lab of ITI. My Ph.D. is under the supervision of Prof. Gerasimos Potamianos, Dr. Petros Daras and Prof. Argyriou Antonios. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Areas of Interest
 
-### Markdown
+* Computer Vision
+* Deep learning
+* Mixed Reality
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Latest News
 
-```markdown
-Syntax highlighted code block
+**July 2019** Our paper on Self-supervised Deep Depth Denoising has been accepted @ICCV 2019 (Seoul)
 
-# Header 1
-## Header 2
-### Header 3
+**February 2019** I'm serving as a reviewer for ICIP 2019
 
-- Bulleted
-- List
+**January 2019** VRTogether team wins the Best Demo Award @MMM2019. Proud to present the corresponding poster! award poster
 
-1. Numbered
-2. List
+**October 2018** Oral presentation @ICIP 2018 (Athens)
 
-**Bold** and _Italic_ and `Code` text
+**July 2018** I'm serving as a reviewer for ACCV 2018
 
-[Link](url) and ![Image](src)
-```
+**May 2018** I have been accepted to present my PhD at the 3MT competition @ICIP 2018.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**May 2018** My paper on attention-enhanced sensorimotor learning has been accepted @ ICIP 2018.
 
-### Jekyll Themes
+**March 2018** Our 3D-FusionNet ranked 2nd in the Protein Shape Retrieval challenge of SHREC 2018.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/spthermo/spthermo.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**January 2018** Started working on VRTogether - Technology for studying user co-presence in virtual reality environments.
 
-### Support or Contact
+**November 2017** I'm serving as a reviewer for CVPR 2018
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**August 2017** I'm serving as a tactical reviewer for IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI)
+
+**July 2017** Spotlight (< 19% acceptance) presentation @CVPR 2017 (Hawaii)
+
+**June 2017** Sensorimotor Object Recognition 3D Dataset (SOR3D) is online, visit our site here !
+
+## Publications
+
+V. Sterzentsenko*, L. Saroglou*, A. Chatzitofis*, **S. Thermos\***, N. Zioulis*, A. Doumanoglou, D. Zarpalas, P. Daras, "Self-Supervised Deep Depth Denoising", IEEE International Conference on Computer Vision (ICCV), 2019 (To Appear)
+
+**S. Thermos**, G.T. Papadopoulos, P. Daras, G. Potamianos, "Attention-enhanced Sensorimotor Object Recognition", IEEE International Conference on Image Processing (ICIP), 2018 pdf
+
+F. Langenfeld, A. Axenopoulos, A. Chatzitofis, D. Cracium, P. Daras, B. Du, A. Giachetti, Y. Lai, H. Li, Y. Li, M. Masoumi, Y. Peng, P. L. Rosin, J. Sirugue, L. Sun, **S. Thermos**, M. Toews, Y. Wei, Y. Wu, Y. Zhai, T. Zhao, Y. Zheng, M. Montes, "SHREC'18 track: Protein Shape Retrieval", Eurographics Workshop on 3D Object Retrieval, 2018
+
+**S. Thermos**, G.T. Papadopoulos, P. Daras, G. Potamianos, "Deep Affordance-grounded Sensorimotor Object Recognition", IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017 pdf arxiv poster (spotlight)
+
+M. Savva, F. Yu, H. Su, A. Kanezaki, T. Furuya, R. Ohbuchi, Z. Zhou, R. Yu, S. Bai, X. Bai, M. Aono, A. Tatsuma, **S. Thermos**, A. Axenopoulos, G. Th. Papadopoulos, P. Daras, X. Deng, Z. Lian, B. Li, H. Johan, Y. Lu, S. Mk, "SHREC'17 track: Large-Scale 3D Shape Retrieval from ShapeNet Core55", Eurographics Workshop on 3D Object Retrieval, 2017 pdf
+
+**S. Thermos** and G. Potamianos, "Audio-visual Speech Activity Detection in a Two-Speaker Scenario Incorporating Depth Information from a Profile or Frontal View", IEEE Workshop on Spoken Language Technology (SLT), 2016 pdf poster
+
+A. Psaltis, K. Kaza, K. Stefanidis, **S. Thermos**, K.C. Apostolakis, K. Dimitropoulos, P. Daras, "Multimodal Active State Recognition in Serious Games Applications", IEEE International Conference on Imaging Systems and Techniques (IST), 2016 pdf
+
+K. Apostolakis, A. Psaltis, K. Stefanidis, K. Kaza, **S. Thermos**, K. Dimitropoulos, E. Dimaraki, P. Daras, "Exploring the Prosociality Domains of Trust and Cooperation, through Single and Cooperative Digital Gameplay in Path of Trust", International Journal of Serious Games (IJSG), 2016 pdf
+
+K. Kaza, A. Psaltis, K. Stefanidis, K.C. Apostolakis, **S. Thermos**, K. Dimitropoulos, P. Daras, "Body Motion Analysis for Emotion Recognition in Serious Games", Human Computer Interaction (HCI), 2016 pdf
+
+K. Apostolakis, K. Kaza, A. Psaltis, K. Stefanidis, **S. Thermos**, K. Dimitropoulos, E. Dimaraki, P. Daras, "Path of Trust: A prosocial co-op game for building up trustworthiness and teamwork", In Games and Learning Alliance: Fourth International Conference (GALA), 2015 pdf
+
+## Talks
+
+**October 2018** 3 Minute Thesis Competition (3MT) competition @ICIP 2018
+
+**October 2016** Invited talk @IEEE Student Branch - University of Thessaly, Volos pics
+
+## Contact me
+
+spthermo *"at"* e-ce *"dot"* uth *"dot"* gr
