@@ -34,7 +34,7 @@ I am a Ph.D. Candidate at the **Department of Electrical & Computer Engineering,
 
 **July 2017** Spotlight **(< 19% acceptance)** presentation **@CVPR 2017** (Hawaii)
 
-**June 2017** Sensorimotor Object Recognition 3D Dataset (SOR3D) is online, visit our site here !
+**June 2017** Sensorimotor Object Recognition 3D Dataset (SOR3D) is online, visit our site [here](http://sor3d.vcl.iti.gr/).
 
 ## Publications
 
