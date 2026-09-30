@@ -1,361 +1,76 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/deepArtMe.jpg" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Spyridon Thermos</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-      <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-      <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="js/hidebib.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="shortcut icon" type="image/jpeg" href="{{ '/assets/images/deepArtMe.jpg' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
   </head>
   <body>
-    <div class="container">
-      <table width="900" border="0" align="center" cellpadding="20">
-        <table width="90%" align="center" border="0" cellpadding="10">
-          <tr>
-            <td width="20%"><div class="instructorphoto"><img src="assets/images/me.jpg" id="spiros"></div></td>
-            <td width="60%" valign="top">
-              <p align="center">&nbsp;</p>
-              <p align="center"><font size="6px">Spyridon (Spiros) Thermos</font></p>
-              <p>
-                I am a computer scientist on a startup quest as a co-founder of <a href="https://moverse.ai/">Moverse</a>.
-              </p>
-              <p>&#x2022;</p>
-              <p>
-                Previously I was postdoctoral researcher at the <a href="https://www.eng.ed.ac.uk/research/institutes/idcom">University of Edinburgh</a> and adjunct professor
-                (for a year) at the <a href="https://www.e-ce.uth.gr/?lang=en">University of Thessaly</a> (UTH). I received my Diploma in computer engineering (2013), my M.Sc. cum laude in computer science (2015), and my Ph.D. from UTH (2020).
-              </p>
-              <p>&#x2022;</p>
-              <p>
-                My research interests lie in the intersection of representation learning and computer vision. Now I'm focusing on generative AI for human motion.
-              </p>
-              
-              <p> <a href="https://uk.linkedin.com/in/spirosthermos" target="_blank" ><img src="assets/icons/linkedin.png" height="20"></a> / 
-                  <a href="https://scholar.google.gr/citations?hl=el&user=AySuDPYAAAAJ&view_op=list_works&sortby=pubdate" target="_blank"><img src="assets/icons/google_scholar.png" height="20"></a> /
-                  <a href="https://github.com/spthermo/" target="_blank" ><img src="assets/icons/git.png" height="20"></a> 
-              </p>
-            </td>
-          </tr>
-        </table>
-      </table>
-    </div>
-    <br>
-
-    <div class="container">
-      <table width="90%" border="0" align="center" cellpadding="20">
-      <h2>News</h2>
-        <div class="news">
-          <ul>
-            <li><span> Dec '24 - Presenting our poster paper on controlling the diversity of single-shot motion synthesis @<a href="https://asia.siggraph.org/2024/">SIGGRAPH Asia 2024</a>.
-            <li><span> Jul '24 - Our real-time markerless motion capture will be live @<a href="https://ai3dg.github.io/">SIGGRAPH 2024</a>.
-            <li><span> Jun '24 - Presenting our work on practical single-shot motion synthesis @<a href="https://ai3dg.github.io/">AI for 3D Generation, CVPR 2024</a>.
-            <li><span> Mar '24 - Reviewing for <a href="https://eccv2024.ecva.net/">ECCV 2024</a>.
-            <li><span> Dec '23 - Presenting a demo @<a href="https://www.cvmp-conference.org/2023/">CVMP 2023</a>.
-            <li><span> Oct '23 - Presenting a demo and a workshop paper @<a href="https://iccv2023.thecvf.com/">ICCV 2023</a>. 
-          </ul>
+    <div class="page-wrap">
+      <aside class="sidebar">
+        <img class="author-avatar" src="{{ '/assets/images/me.jpg' | relative_url }}" alt="Spyridon Thermos">
+        <h1 class="author-name">Spyridon (Spiros) Thermos</h1>
+        <p class="author-tagline">Computer Scientist and Co-Founder of <a href="https://moverse.ai/" target="_blank" rel="noopener">Moverse</a></p>
+        <ul class="author-social">
+          <li>
+            <a href="mailto:spiros@moverse.ai" title="Email" aria-label="Email">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://uk.linkedin.com/in/spirosthermos" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://scholar.google.gr/citations?hl=el&user=AySuDPYAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener" title="Google Scholar" aria-label="Google Scholar">
+              <i class="fa-brands fa-google-scholar" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/spthermo/" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <main class="content">
+        <nav class="section-nav">
+          <a href="#about">About Me</a>
+          <a href="#news">News</a>
+          <a href="#publications">Research</a>
+          <a href="#teaching">Teaching</a>
+        </nav>
+        {{ content }}
+        <footer class="site-footer">
+          <p>Design inspired by <a href="https://mmistakes.github.io/minimal-mistakes/" target="_blank" rel="noopener">Minimal Mistakes</a>.</p>
+        </footer>
+      </main>
+      <aside class="linkedin-sidebar">
+        <h2 class="linkedin-heading">Spiros' Feed</h2>
+        <div class="linkedin-slider">
+          <button type="button" class="linkedin-nav prev" aria-label="Scroll to previous post">
+            <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+          </button>
+          <div class="linkedin-track">
+            <div class="linkedin-post"><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7510993489065832450?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen title="Embedded post"></iframe></div>
+            <div class="linkedin-post"><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7469697428070330368?collapsed=1" height="543" width="504" frameborder="0" allowfullscreen title="Embedded post"></iframe></div>
+            <div class="linkedin-post"><iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7467235150947311617?collapsed=1" height="542" width="504" frameborder="0" allowfullscreen title="Embedded post"></iframe></div>
+          </div>
+          <button type="button" class="linkedin-nav next" aria-label="Scroll to next post">
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
         </div>
-      </table>
+        <p class="linkedin-more"><a href="https://www.linkedin.com/in/spirosthermos/recent-activity/all/" target="_blank" rel="noopener">See more on LinkedIn &rarr;</a></p>
+      </aside>
     </div>
-    <br>
-
-    <div class="container">
-      <h2> Highlighted publications </h2>
-
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="35%" valign="top"><img src="assets/images/web-sig-asia.jpg" alt="game" width="185" height="123" style="border-style: none">
-            <td width="65%" valign="top">
-              <p><a href="https://dl.acm.org/doi/pdf/10.1145/3681756.3697909"><heading>Controlling Diversity in Single-shot Motion Synthesis</heading></a><br>
-              E. Tselepi, <strong>S. Thermos</strong>, G. Albanis, A. Chatzitofis <br>
-              <em>SIGGRAPH Asia</em>, 2024 <br>
-                
-              <div class="paper" id="tselepi2024singleshot">
-                <a href="https://moverseai.github.io/single-shot/"> project page </a> /
-                <a shape="rect" href="javascript:togglebib('tselepi2024singleshot')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-                  @inproceedings{tselepi2024singleshot,
-                    author    = {Tselepi, Eleni, and Thermos, Spyridon, and Albanis, Georgios and Chatzitofis, Anargyros},
-                    title     = {Controlling Diversity in Single-shot Motion Synthesis},
-                    booktitle = {SIGGRAPH Asia (Posters)},
-                    month     = {December},
-                    year      = {2024}  
-                  }
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="35%" valign="top"><img src="assets/images/ganimator.png" alt="game" width="180" height="150" style="border-style: none">
-            <td width="65%" valign="top">
-              <p><a href="https://ai3dg.github.io/papers/paper_15.pdf"><heading>Towards Practical Single-Shot Motion Synthesis</heading></a><br>
-              K. Roditakis, <strong>S. Thermos</strong>, N. Zioulis <br>
-              <em>CVPRW</em>, 2024 <br>
-                
-              <div class="paper" id="roditakis2024synthesis">
-                <a href="https://moverseai.github.io/single-shot/"> project page </a> /
-                <a shape="rect" href="javascript:togglebib('roditakis2024synthesis')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-@inproceedings{roditakis2024synthesis,
-  author    = {Roditakis, Konstantinos, and Thermos, Spyridon, and Zioulis, Nikolaos.},
-  title     = {Towards Practical Single-Shot Motion Synthesis},
-  booktitle = {IEEE/CVF Computer Vision and Pattern Recognition (CVPR) AI for 3D Generation Workshop},
-  year      = {2024}  
-}
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      <hr>
-
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="35%" valign="top"><img src="assets/images/noisetail.png" alt="game" width="180" height="150" style="border-style: none">
-            <td width="65%" valign="top">
-              <p><a href="https://openaccess.thecvf.com/content/ICCV2023W/CV4Metaverse/html/Albanis_Noise-in_Bias-out_Balanced_and_Real-Time_MoCap_Solving_ICCVW_2023_paper.html"><heading>Noise-in, Bias-out: Balanced and Real-time MoCap Solving</heading></a><br>
-              G. Albanis, N. Zioulis, <strong>S. Thermos</strong>, A. Chatzitofis, K. Kolomvatsos <br>
-              <em>ICCVW</em>, 2023 <br>
-                
-              <div class="paper" id="albanis2023noise">
-                <a href="https://moverseai.github.io/noise-tail/"> project page </a> /
-                <a shape="rect" href="javascript:togglebib('albanis2023noise')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-@inproceedings{albanis2023noise,
-  author    = {Albanis, Georgios, and Zioulis, Nikolaos, and Thermos, Spyridon, and Chatzitofis, Anargyros and Kolomvatsos, Kostas.},
-  title     = {Noise-in, Bias-out: Balanced and Real-time MoCap Solving},
-  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
-  year      = {2023}  
-}
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      <hr>
-
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="35%" valign="top"><img src="assets/images/realtimelive.png" alt="game" width="170" height="150" style="border-style: none">
-            <td width="65%" valign="top">
-              <p><a href="https://dl.acm.org/doi/abs/10.1145/3588430.3597249"><heading>Suit Up: AI MoCap</heading></a><br>
-                A. Chatzitofis, G. Albanis, N. Zioulis, <strong>S. Thermos</strong><br>
-              <em>SIGGRAPH</em>, 2023 <br>
-                
-              <div class="paper" id="chatzitofis2023siggraph">
-                <a href="https://www.youtube.com/watch?v=JLxqiMCrdwE">video</a> /
-                <a href="https://s2023.siggraph.org/presentation/?id=real_113&sess=sess258">project page</a> /
-                <a shape="rect" href="javascript:togglebib('chatzitofis2023siggraph')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-@inproceedings{chatzitofis2023siggraph,
-  author    = {Anargyros Chatzitofis and Georgios Albanis and Nikolaos Zioulis and Spyridon Thermos.},
-  title     = {Suit Up: AI MoCap},
-  booktitle = {ACM SIGGRAPH 2023 Real-Time Live!},
-  year      = {2023}  
-}
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      <hr>
-
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="35%" valign="top"><img src="assets/images/tutorial_intro.png" alt="game" width="170" height="150" style="border-style: none">
-            <td width="65%" valign="top">
-              <p><a href="https://arxiv.org/abs/2108.12043?context=cs"><heading>Learning disentangled representations in the imaging domain</heading></a><br>
-              X. Liu, P. Sanchez, <strong>S. Thermos</strong>, A. O'Neil, S. A. Tsaftaris <br>
-              <em>Medical Image Analysis</em>, 2022 <br>
-                
-              <div class="paper" id="liu2022tutorial">
-                <a href="https://github.com/vios-s/disentanglement_tutorial"> repo </a> /
-                <a shape="rect" href="javascript:togglebib('liu2021tutorial')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-@article{liu2022tutorial,
-  author       = "Xiao Liu and Pedro Sanchez and Spyridon Thermos and Alison O'Neil and Sotirios A. Tsaftaris",
-  title        = "Learning Disentangled Representations in the Imaging Domain",
-  journal      = "Medical Image Analysis",
-  volume       = "80"
-  pages        = "102516",
-  year         = "2022"}
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      <hr>
-      
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="25%" valign="top"><img src="assets/images/content_style_disentanglement.png" alt="game" width="170" height="150" style="border-style: none">
-            <td width="75%" valign="top">
-              <p><a href="https://arxiv.org/pdf/2008.12378.pdf"><heading>Measuring the Biases and Effectiveness of Content-Style Disentanglement</heading></a><br>
-                X. Liu, <strong>S. Thermos</strong>, G. Valvano, A. Chartsias, A. O'Neil, S. A. Tsaftaris <br>
-              <em>BMVC</em>, 2021 <br>
-                
-              <div class="paper" id="liu2021metrics">
-                <a href="https://github.com/vios-s/CSDisentanglement_Metrics_Library">repo</a> /
-                <a shape="rect" href="javascript:togglebib('liu2020metrics')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-@inproceedings{liu2021metrics,
-  author       = "Xiao Liu and Spyridon Thermos and Gabriele Valvano and Agisilaos Chartsias and Alison O'Neil and Sotirios A. Tsaftaris",
-  title        = "Measuring the Biases and Effectiveness of Content-Style Disentanglement",
-  booktitle    = "BMVC",
-  year         = "2021"}
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      <hr>
-        
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="25%" valign="top"><img src="assets/images/daa-gan.png" alt="game" width="170" height="120" style="border-style: none">
-            <td width="75%" valign="top">
-              <p><a href="https://arxiv.org/abs/2107.01748"><heading>Controllable cardiac synthesis via disentangled anatomy arithmetic</heading></a><br>
-              <strong>S. Thermos</strong>, X. Liu, A. O'Neil, S. A. Tsaftaris <br> 
-              <em>MICCAI</em>, 2021 <strong>(oral)</strong><br>
-                
-              <div class="paper" id="thermos2021miccai">
-                <a href="https://github.com/vios-s/DAA-GAN"> repo </a> /
-                <a shape="rect" href="javascript:togglebib('thermos2021miccai')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-@inproceedings{thermos2021miccai,
-author       = "Spyridon Thermos and Xiao Liu and Alison O'Neil and Sotirios A. Tsaftaris",
-title        = "Controllable cardiac synthesis via disentangled anatomy arithmetic",
-booktitle    = "International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)",
-pages        = "",
-year         = "2021"}
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      <hr>
-      
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="35%" valign="top"><img src="assets/images/structure_correspondences.png" alt="game" width="130" height="140" style="border-style: none">
-            <td width="65%" valign="top">
-              <p><a href="https://arxiv.org/abs/2003.10176.pdf"><heading>Deep Soft Procrustes for Markerless Volumetric Sensor Alignment</heading></a><br>
-                V. Sterzentsenko, A. Doumanoglou, <strong>S. Thermos</strong>, N. Zioulis, D. Zarpalas, P. Daras <br>
-              <em>IEEE VR</em>, 2020 <br>
-                
-              <div class="paper" id="sterzentsenko2020alignment">
-                <a href="https://vcl3d.github.io/StructureNet/"> project page</a> /
-                <a href="https://www.youtube.com/watch?time_continue=4&v=0l5neSMt-2Y&feature=emb_logo"> video </a> /
-                <a shape="rect" href="javascript:togglebib('sterzentsenko2020alignment')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-@inproceedings{sterzentsenko2020alignment,
-  author       = "Vladimiros Sterzentsenko and Alexandros Doumanoglou and Spyridon Thermos and Nikolaos Zioulis and Dimitrios Zarpalas and Petros Daras",
-  title        = "Deep Soft Procrustes for Markerless Volumetric Sensor Alignment",
-  booktitle    = "Proc. IEEE VR",
-  year         = "2020"}
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      <hr>
-      
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="25%" valign="top"><img src="assets/images/overview.png" alt="game" width="170" height="100" style="border-style: none">
-            <td width="75%" valign="top">
-              <p><a href="https://arxiv.org/abs/2004.08644.pdf"><heading>A Deep Learning Approach To Object Affordance Segmentation</heading></a><br>
-            <strong>S. Thermos</strong>, P. Daras, G. Potamianos<br>
-              <em>ICASSP</em>, 2020 <br>
-                
-              <div class="paper" id="thermos2020icassp">
-                <a href="https://github.com/spthermo/STCAE">repo</a> /
-                <a href="https://drive.google.com/open?id=1sBKOUZrQF1uASqLNpslOq7xi6BoF7E7L">video</a> /
-                <a shape="rect" href="javascript:togglebib('thermos2020icassp')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-@inproceedings{thermos2020icassp,
-  author       = "Spyridon Thermos and Petros Daras and Gerasimos Potamianos",
-  title        = "A Deep Learning Approach To Object Affordance Segmentation",
-  booktitle    = "Proc. International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
-  pages        = "2358-2362",
-  year         = "2020"}
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      <hr>
-      
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="25%" valign="top"><img src="assets/images/poisson.png" alt="game" width="170" height="160" style="border-style: none">
-            <td width="75%" valign="top">
-              <p><a href="https://arxiv.org/pdf/1909.01193.pdf"><heading>Self-Supervised Deep Depth Denoising</heading></a><br>
-              V. Sterzentsenko, L. Saroglou, A. Chatzitofis, <strong>S. Thermos</strong>, N. Zioulis, A. Doumanoglou, D. Zarpalas, P. Daras<br>
-              <em>ICCV</em>, 2019 <br>
-                
-              <div class="paper" id="sterzentsenko2019denoising">
-                <a href="https://arxiv.org/abs/1909.01193">arxiv</a> /
-                <a href="https://vcl3d.github.io/DeepDepthDenoising/"> project page</a> /
-                <a shape="rect" href="javascript:togglebib('sterzentsenko2019denoising')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-@inproceedings{sterzentsenko2019denoising,
-  author       = "Vladimiros Sterzentsenko and Leonidas Saroglou and Anargyros Chatzitofis and Spyridon Thermos and Nikolaos Zioulis and Alexandros Doumanoglou and Dimitrios Zarpalas and Petros Daras",
-  title        = "Self-Supervised Deep Depth Denoising",
-  booktitle    = "ICCV",
-  pages        = "1242-1251",
-  year         = "2019"}
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      <hr>
-    
-      <div class="publication">
-        <table width="900" align="center" border="0" cellpadding="0">
-          <td width="25%" valign="top"><img src="assets/images/graphical_abstract.png" alt="game" width="180" height="140" style="border-style: none">
-            <td width="75%" valign="top">
-              <p><a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Thermos_Deep_Affordance-Grounded_Sensorimotor_CVPR_2017_paper.pdf"><heading>Deep Affordance-grounded Sensorimotor Object Recognition</heading></a><br>
-              <strong>S. Thermos</strong>, G.T. Papadopoulos, P. Daras, G. Potamianos<br>
-              <em>CVPR</em>, 2017 <strong>(spotlight)</strong><br>
-                
-              <div class="paper" id="thermos2017cvpr">
-                <a href="https://arxiv.org/abs/1704.02787">arxiv</a> /
-                <a shape="rect" href="javascript:togglebib('thermos2017cvpr')" class="togglebib">bibtex</a>
-                <pre xml:space="preserve">
-@inproceedings{thermos2017cvpr,
-  author       = "S. Thermos and G.T. Papadopoulos and P. Daras and G. Potamianos",
-  title        = "Deep Affordance-grounded Sensorimotor Object Recognition",
-  booktitle    = "CVPR",
-  pages        = "6167-6175"
-  year         = "2017"}
-                </pre>             
-              </div>
-            </td> 
-          </td>
-        </table>
-      </div>
-      <hr>
-    </div>
-    <br>
-    <p style="text-align:right;">Theme "borrowed" from <a href="https://gkioxari.github.io/">Georgia Gkioxari</a> and <a href="https://jonbarron.info/">John Barron</a></p>
-    <br>
-    <script xml:space="preserve" language="JavaScript">
-      hideallbibs();
-    </script>    
+    <script src="{{ '/js/hidebib.js' | relative_url }}"></script>
+    <script src="{{ '/js/linkedin-feed.js' | relative_url }}"></script>
+    <script>hideallbibs(); initLinkedInSlider();</script>
   </body>
 </html>
