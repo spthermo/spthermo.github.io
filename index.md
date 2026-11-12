@@ -5,13 +5,19 @@ title: Spyridon Thermos
 
 <section class="about" id="about">
   <p>I am a computer scientist on a startup quest as a co-founder of <a href="https://moverse.ai/" target="_blank" rel="noopener">Moverse</a>.</p>
-  <p>Previously I was postdoctoral researcher at the <a href="https://www.eng.ed.ac.uk/research/institutes/idcom" target="_blank" rel="noopener">University of Edinburgh</a> and adjunct professor (for a year) at the <a href="https://www.e-ce.uth.gr/?lang=en" target="_blank" rel="noopener">University of Thessaly</a> (UTH). I received my Diploma in computer engineering (2013), my M.Sc. cum laude in computer science (2015), and my Ph.D. from UTH (2020).</p>
-  <p>My research interests lie in the intersection of representation learning and computer vision. Now I'm focusing on generative AI for human motion.</p>
+  <p>Previously I was postdoctoral researcher at the <a href="https://www.eng.ed.ac.uk/research/institutes/idcom" target="_blank" rel="noopener">University of Edinburgh</a> and adjunct professor (for a year) at the <a href="https://www.e-ce.uth.gr/?lang=en" target="_blank" rel="noopener">University of Thessaly</a> (UTH). I received my Diploma in computer engineering (2013), my M.Sc. cum laude in computer science (2015), and my Ph.D. (2020) from the University of Thessaly.</p>
+  <p>My research interests lie in the intersection of representation learning and machine vision.</p>
 </section>
 
 <section class="news" id="news">
   <h2>News</h2>
   <ul class="timeline">
+    <li><time>Jun &rsquo;26</time><span>Reviewing for <a href="https://neurips.cc/" target="_blank" rel="noopener">NeurIPS 2026</a>.</span></li>
+    <li><time>May &rsquo;26</time><span>Reviewing for BMVC 2026.</span></li>
+    <li><time>Jan &rsquo;26</time><span>Reviewing for <a href="https://cvpr.thecvf.com/Conferences/2026" target="_blank" rel="noopener">CVPR 2026</a>.</span></li>
+    <li><time>Oct &rsquo;25</time><span>Presenting our workshop paper @<a href="https://iccv.thecvf.com/Conferences/2025" target="_blank" rel="noopener">AIVA, ICCV 2025</a>.</span></li>
+    <li><time>Sep &rsquo;25</time><span>Reviewing for <a href="https://wacv.thecvf.com/Conferences/2026" target="_blank" rel="noopener">WACV 2026</a>.</span></li>
+    <li><time>Mar &rsquo;25</time><span>Attending <a href="https://gdconf.com/" target="_blank" rel="noopener">GDC 2025</a> in San Francisco for a live demonstration of Moverse Capture.</span></li>
     <li><time>Dec &rsquo;24</time><span>Presenting our poster paper on controlling the diversity of single-shot motion synthesis @<a href="https://asia.siggraph.org/2024/" target="_blank" rel="noopener">SIGGRAPH Asia 2024</a>.</span></li>
     <li><time>Jul &rsquo;24</time><span>Our real-time markerless motion capture will be live @<a href="https://ai3dg.github.io/" target="_blank" rel="noopener">SIGGRAPH 2024</a>.</span></li>
     <li><time>Jun &rsquo;24</time><span>Presenting our work on practical single-shot motion synthesis @<a href="https://ai3dg.github.io/" target="_blank" rel="noopener">AI for 3D Generation, CVPR 2024</a>.</span></li>
@@ -24,28 +30,28 @@ title: Spyridon Thermos
 <section class="publications" id="publications">
   <h2>Highlighted Publications</h2>
 
-  <article class="paper" id="tselepi2024singleshot">
-    <div class="paper-thumb"><img src="assets/images/web-sig-asia.jpg" alt="Controlling Diversity in Single-shot Motion Synthesis"></div>
+  <article class="paper" id="tselepi2025singleshot">
+    <div class="paper-thumb"><img src="assets/images/teaser-aiva-fixed.png" alt="Controllable Single-shot Animation Blending with Temporal Conditioning"></div>
     <div class="paper-body">
-      <h3><a href="https://dl.acm.org/doi/pdf/10.1145/3681756.3697909" target="_blank" rel="noopener">Controlling Diversity in Single-shot Motion Synthesis</a></h3>
-      <p class="paper-authors">E. Tselepi, <strong>S. Thermos</strong>, G. Albanis, A. Chatzitofis</p>
-      <p class="paper-venue">SIGGRAPH Asia, 2024</p>
+      <h3><a href="https://openaccess.thecvf.com/content/ICCV2025W/AI4VA/papers/Tselepi_Controllable_Single-shot_Animation_Blending_with_Temporal_Conditioning_ICCVW_2025_paper.pdf" target="_blank" rel="noopener">Controllable Single-shot Animation Blending with Temporal Conditioning</a></h3>
+      <p class="paper-authors">E. Tselepi, <strong>S. Thermos</strong>, G. Potamianos</p>
+      <p class="paper-venue">ICCVW, 2025</p>
       <p class="paper-links">
-        <a href="https://moverseai.github.io/single-shot/" target="_blank" rel="noopener">project page</a>
-        <button type="button" class="togglebib" onclick="togglebib('tselepi2024singleshot')">bibtex</button>
+        <a href="https://elenitselepi.github.io/BlendAnim-project/" target="_blank" rel="noopener">project page</a>
+        <button type="button" class="togglebib" onclick="togglebib('tselepi2025singleshot')">bibtex</button>
       </p>
       <pre>@inproceedings{tselepi2024singleshot,
-  author    = {Tselepi, Eleni, and Thermos, Spyridon, and Albanis, Georgios and Chatzitofis, Anargyros},
-  title     = {Controlling Diversity in Single-shot Motion Synthesis},
-  booktitle = {SIGGRAPH Asia (Posters)},
-  month     = {December},
-  year      = {2024}
+  author    = {Tselepi, Eleni, and Thermos, Spyridon, and Potamianos, Gerasimos},
+  title     = {Controllable Single-shot Animation Blending with Temporal Conditioning},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+  pages     = {436--445},
+  year      = {2025}
 }</pre>
     </div>
   </article>
 
   <article class="paper" id="roditakis2024synthesis">
-    <div class="paper-thumb"><img src="assets/images/ganimator.png" alt="Towards Practical Single-Shot Motion Synthesis"></div>
+    <div class="paper-thumb"><img src="assets/images/ganimator.jpg" alt="Towards Practical Single-Shot Motion Synthesis"></div>
     <div class="paper-body">
       <h3><a href="https://ai3dg.github.io/papers/paper_15.pdf" target="_blank" rel="noopener">Towards Practical Single-Shot Motion Synthesis</a></h3>
       <p class="paper-authors">K. Roditakis, <strong>S. Thermos</strong>, N. Zioulis</p>
@@ -141,7 +147,7 @@ title: Spyridon Thermos
   </article>
 
   <article class="paper" id="thermos2021miccai">
-    <div class="paper-thumb"><img src="assets/images/daa-gan.png" alt="Controllable cardiac synthesis via disentangled anatomy arithmetic"></div>
+    <div class="paper-thumb"><img src="assets/images/daa-gan.jpg" alt="Controllable cardiac synthesis via disentangled anatomy arithmetic"></div>
     <div class="paper-body">
       <h3><a href="https://arxiv.org/abs/2107.01748" target="_blank" rel="noopener">Controllable cardiac synthesis via disentangled anatomy arithmetic</a></h3>
       <p class="paper-authors"><strong>S. Thermos</strong>, X. Liu, A. O'Neil, S. A. Tsaftaris</p>
@@ -160,7 +166,7 @@ title: Spyridon Thermos
   </article>
 
   <article class="paper" id="sterzentsenko2020alignment">
-    <div class="paper-thumb"><img src="assets/images/structure_correspondences.png" alt="Deep Soft Procrustes for Markerless Volumetric Sensor Alignment"></div>
+    <div class="paper-thumb"><img src="assets/images/structure_correspondences.jpg" alt="Deep Soft Procrustes for Markerless Volumetric Sensor Alignment"></div>
     <div class="paper-body">
       <h3><a href="https://arxiv.org/abs/2003.10176.pdf" target="_blank" rel="noopener">Deep Soft Procrustes for Markerless Volumetric Sensor Alignment</a></h3>
       <p class="paper-authors">V. Sterzentsenko, A. Doumanoglou, <strong>S. Thermos</strong>, N. Zioulis, D. Zarpalas, P. Daras</p>
@@ -219,7 +225,7 @@ title: Spyridon Thermos
   </article>
 
   <article class="paper" id="thermos2017cvpr">
-    <div class="paper-thumb"><img src="assets/images/graphical_abstract.png" alt="Deep Affordance-grounded Sensorimotor Object Recognition"></div>
+    <div class="paper-thumb"><img src="assets/images/graphical_abstract.jpg" alt="Deep Affordance-grounded Sensorimotor Object Recognition"></div>
     <div class="paper-body">
       <h3><a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Thermos_Deep_Affordance-Grounded_Sensorimotor_CVPR_2017_paper.pdf" target="_blank" rel="noopener">Deep Affordance-grounded Sensorimotor Object Recognition</a></h3>
       <p class="paper-authors"><strong>S. Thermos</strong>, G.T. Papadopoulos, P. Daras, G. Potamianos</p>
@@ -240,4 +246,26 @@ title: Spyridon Thermos
 
 <section class="teaching" id="teaching">
   <h2>Teaching</h2>
+
+  <div class="teaching-panel" id="ece352">
+    <h3>ECE352 &middot; Image Processing</h3>
+    <p class="teaching-dept">Dept. of Electrical and Computer Engineering, University of Thessaly &mdash; Signals, Communications &amp; Networking, elective, 6th semester (Spring)</p>
+    <ul class="teaching-components">
+      <li>Lectures</li>
+      <li>Assignments</li>
+      <li>Semester project</li>
+    </ul>
+    <p class="teaching-links"><a href="https://github.com/spthermo/CE352-UTH" target="_blank" rel="noopener">Course repo &rarr;</a></p>
+  </div>
+
+  <div class="teaching-panel" id="ece457">
+    <h3>ECE457 &middot; Introduction to Computer Vision</h3>
+    <p class="teaching-dept">Dept. of Electrical and Computer Engineering, University of Thessaly &mdash; Signals, Communications &amp; Networking, elective, 7th semester (Fall)</p>
+    <ul class="teaching-components">
+      <li>Lectures</li>
+      <li>Assignments</li>
+      <li>Semester project</li>
+    </ul>
+    <p class="teaching-links"><a href="https://github.com/spthermo/CE457-UTH" target="_blank" rel="noopener">Course repo &rarr;</a></p>
+  </div>
 </section>
