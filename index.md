@@ -18,12 +18,6 @@ title: Spyridon Thermos
     <li><time>Oct &rsquo;25</time><span>Presenting our workshop paper @<a href="https://iccv.thecvf.com/Conferences/2025" target="_blank" rel="noopener">AIVA, ICCV 2025</a>.</span></li>
     <li><time>Sep &rsquo;25</time><span>Reviewing for <a href="https://wacv.thecvf.com/Conferences/2026" target="_blank" rel="noopener">WACV 2026</a>.</span></li>
     <li><time>Mar &rsquo;25</time><span>Attending <a href="https://gdconf.com/" target="_blank" rel="noopener">GDC 2025</a> in San Francisco for a live demonstration of Moverse Capture.</span></li>
-    <li><time>Dec &rsquo;24</time><span>Presenting our poster paper on controlling the diversity of single-shot motion synthesis @<a href="https://asia.siggraph.org/2024/" target="_blank" rel="noopener">SIGGRAPH Asia 2024</a>.</span></li>
-    <li><time>Jul &rsquo;24</time><span>Our real-time markerless motion capture will be live @<a href="https://ai3dg.github.io/" target="_blank" rel="noopener">SIGGRAPH 2024</a>.</span></li>
-    <li><time>Jun &rsquo;24</time><span>Presenting our work on practical single-shot motion synthesis @<a href="https://ai3dg.github.io/" target="_blank" rel="noopener">AI for 3D Generation, CVPR 2024</a>.</span></li>
-    <li><time>Mar &rsquo;24</time><span>Reviewing for <a href="https://eccv2024.ecva.net/" target="_blank" rel="noopener">ECCV 2024</a>.</span></li>
-    <li><time>Dec &rsquo;23</time><span>Presenting a demo @<a href="https://www.cvmp-conference.org/2023/" target="_blank" rel="noopener">CVMP 2023</a>.</span></li>
-    <li><time>Oct &rsquo;23</time><span>Presenting a demo and a workshop paper @<a href="https://iccv2023.thecvf.com/" target="_blank" rel="noopener">ICCV 2023</a>.</span></li>
   </ul>
 </section>
 
